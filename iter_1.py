@@ -3,10 +3,10 @@ import pandas as pd
 
 # Load user and tool data
 users_df = pd.read_excel(
-    r"C:/Users/Dell/Desktop/Recommendation Systems/Macromed-Recommendation-Engine/Generated Data/surgical_tool_recommendation_users (5).xlsx"
+    r"surgical_tool_recommendation_users (5).xlsx"
 )
 tools_df = pd.read_excel(
-    r"C:/Users/Dell/Desktop/Recommendation Systems/Macromed-Recommendation-Engine/Generated Data/surgical_tool_prices (5).xlsx"
+    r"surgical_tool_prices (5).xlsx"
 )
 
 # Budget filter logic
